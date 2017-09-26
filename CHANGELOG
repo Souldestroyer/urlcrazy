@@ -1,9 +1,18 @@
+New in Version 0.6 (September 2016)
+* Fixed CSV output bug
+* Colorized output
+* Fixed bug with - warning: duplicated key at line 89 ignored: "2nd_level_registration"
+* Increased DNS performance by using asynchronous DNS resolution
+* Includes fast public DNS servers from Google, VeriSign and Level3
+* Included country database update script
+
 New in Version 0.5 (15 July 2012)
-* Support for Ruby1.9.1
+* Support for Ruby 1.9.1
 * CSV output
 * Output files
 * Double character replacement typos
 * Homoglyphs - used https://en.wikipedia.org/wiki/Homoglyph
+* Added IP to country support
 * No longer checks domain popularity by default
 * Updated some text
 * Updated common misspellings from http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines
